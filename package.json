@@ -1,25 +1,28 @@
 {
-  "author": "",
-  "name": "timestamp-microservice",
-  "version": "1.0.0",
-  "description": "",
+  "name": "fcc-api-projects-boilerplate",
+  "version": "0.0.1",
+  "description": "An FCC Backend Challenge",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.12.4",
+    "cors": "^2.8.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OrphericYeou/Timestamp-Microservice.git"
+    "url": "https://github.com/freeCodeCamp/boilerplate-project-timestamp.git"
   },
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/OrphericYeou/Timestamp-Microservice/issues"
+    "url": "https://github.com/freeCodeCamp/freeCodeCamp/issues"
   },
-  "homepage": "https://github.com/OrphericYeou/Timestamp-Microservice#readme",
-  "dependencies": {
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "mongoose": "^6.8.1",
-    "nodemon": "^2.0.20"
-  }
+  "homepage": "https://github.com/freeCodeCamp/boilerplate-project-timestamp#readme",
+  "author": "freeCodeCamp <team@freecodecamp.org>",
+  "keywords": [
+    "node",
+    "express",
+    "freeCodeCamp"
+  ],
+  "license": "MIT"
 }
